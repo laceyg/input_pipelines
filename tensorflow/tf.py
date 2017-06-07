@@ -13,7 +13,7 @@ image = tf.image.decode_jpeg(image_file)
 
 init_op = tf.global_variables_initializer()
 with tf.Session() as sess:
-    start = time.time()\
+    start = time.time()
 
     sess.run(init_op)
 
